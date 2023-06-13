@@ -162,3 +162,62 @@ const anotherOdd = numbers.filter((number)=>{
 })
 
 console.log(anotherOdd)
+
+/**
+ *  Object Methods:
+ */
+
+const person = {
+    name:"Sham",
+    age:22, // july 19 she will be 23 years old girl
+    country:"India",
+    city:"Chennai",
+    sex:"Female"
+}
+
+
+// To get Object Values:
+
+console.log(Object.values(person))
+
+// To get Object Keys: 
+console.log(Object.keys(person))
+
+// Both values and keys :
+console.log(Object.entries(person))
+
+
+
+// Adhoc Loops:
+
+const names = ["Sham","Ray","Ribasa"]
+
+
+for (const name of names) { // array
+
+    console.log(name)
+    
+}
+
+
+console.log("------------------------------------")
+
+for (const key in person) {
+    
+    console.log(person[key])
+}
+
+
+// Timer Functions:
+
+setTimeout(function(){
+    console.log("Heyyyyy")
+},1000)
+
+
+// setInterval(function(){
+//     console.log("Hello")
+// },1000)
+
+console.log("------------------------------------")
+
